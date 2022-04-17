@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import AppContext from '../context/AppContext';
-import close from '@icons/icon_close.png'
+import AppContext from '@context/AppContext';
+import close from '@icons/icon_close.png';
 
 const OrderItem = ({ product }) => {
 	const { removeFromCart } = useContext(AppContext);
