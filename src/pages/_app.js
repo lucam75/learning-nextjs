@@ -9,6 +9,7 @@ import '@styles/MyOrder.scss';
 import '@styles/OrderItem.scss';
 import '@styles/ProductItem.scss';
 import '@styles/ProductList.scss';
+import '@styles/Checkout.scss';
 
 function MyApp({ Component, pageProps }) {
   const initialState = useInitialState();

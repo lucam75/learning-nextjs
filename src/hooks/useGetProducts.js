@@ -14,7 +14,7 @@ const useGetProducts = (API) => {
 		  setProducts(filteredProducts);
 		}
 		fetchData();
-	  }, []); // Or [] if effect doesn't need props or state
+	  }, []);
 
 	  return products;
 };
